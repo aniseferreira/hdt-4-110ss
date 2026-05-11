@@ -34,6 +34,11 @@ portuguese = st.session_state.portuguese_order
 # =========================
 
 st.title("Heródoto — Exercício de Matching")
+st.subheader("Identificação")
+
+name = st.text_input("Nome")
+email = st.text_input("Email")
+
 st.markdown(
     """
 Associe cada oração em grego antigo à sua tradução em português.
