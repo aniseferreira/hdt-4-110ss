@@ -153,11 +153,18 @@ Resposta correta:
 
     df = pd.DataFrame([result])
 
+    st.session_state.df_resultado = df
+    
     st.success("Resultado gerado com sucesso.")
+        
+    if "df_resultado" in st.session_state:
 
     csv_buffer = io.StringIO()
 
-    df.to_csv(csv_buffer, index=False)
+    st.session_state.df_resultado.to_csv(
+        csv_buffer,
+        index=False
+    )
 
     st.download_button(
         label="Baixar resultado CSV",
@@ -165,7 +172,6 @@ Resposta correta:
         file_name="resultado.csv",
         mime="text/csv"
     )
-
 # =========================
 # Reiniciar
 # =========================
