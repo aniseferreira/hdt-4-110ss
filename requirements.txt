@@ -1,3 +1,6 @@
 # requirements.txt
 
 streamlit
+gspread
+oauth2client
+pandas
