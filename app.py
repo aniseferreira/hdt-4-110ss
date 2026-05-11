@@ -87,7 +87,9 @@ with left:
 # Correção
 # =========================
 
-if st.button("Corrigir"):
+corrigir = st.button("Corrigir")
+
+if corrigir:
 
     if not name or not email:
         st.warning("Preencha nome e email.")
