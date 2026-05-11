@@ -5,6 +5,7 @@ import random
 import pandas as pd
 from datetime import datetime
 import os
+import io
 
 st.set_page_config(
     page_title="Matching — Heródoto",
