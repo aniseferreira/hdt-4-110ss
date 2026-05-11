@@ -1,0 +1,119 @@
+// data/herodoto_sauromatas.json
+
+[
+  {
+    "id": 1,
+    "greek": "Σαυροματέων δὲ πὲρι ὧδε λέγεται.",
+    "portuguese": "Diz-se o seguinte a respeito dos Saurômatas."
+  },
+  {
+    "id": 2,
+    "greek": "ὅτε Ἕλληνες Ἀμαζόσι ἐμαχέσαντο",
+    "portuguese": "Quando os gregos combateram as Amazonas,"
+  },
+  {
+    "id": 3,
+    "greek": "τὰς δὲ Ἀμαζόνας καλέουσι Σκύθαι Οἰόρπατα",
+    "portuguese": "Os citas chamam as Amazonas de Oiórpata."
+  },
+  {
+    "id": 4,
+    "greek": "δύναται δὲ τὸ οὔνομα τοῦτο κατὰ Ἑλλάδα γλῶσσαν ἀνδροκτόνοι",
+    "portuguese": "Esse nome é equivalente a 'matadoras de homens' na língua grega."
+  },
+  {
+    "id": 5,
+    "greek": "οἰὸρ γὰρ καλέουσι ἄνδρα",
+    "portuguese": "Pois chamam o homem de oior."
+  },
+  {
+    "id": 6,
+    "greek": "τὸ δὲ πατὰ κτείνειν",
+    "portuguese": "E pata significa matar."
+  },
+  {
+    "id": 7,
+    "greek": "τότε λόγος τοὺς Ἕλληνας νικήσαντας τῇ ἐπὶ Θερμώδοντι μάχῃ ἀποπλέειν ἄγοντας τρισὶ πλοίοισι τῶν Ἀμαζόνων ὅσας ἐδυνέατο ζωγρῆσαι",
+    "portuguese": "Conta-se então que os gregos, após vencerem a batalha junto ao Termodonte, partiram levando em três navios quantas Amazonas puderam capturar vivas."
+  },
+  {
+    "id": 8,
+    "greek": "τὰς δὲ ἐν τῷ πελάγει ἐπιθεμένας ἐκκόψαι τοὺς ἄνδρας",
+    "portuguese": "Mas (que) elas, em alto-mar, atacaram e mataram os homens."
+  },
+  {
+    "id": 9,
+    "greek": "πλοῖα δὲ οὐ γινώσκειν αὐτὰς",
+    "portuguese": "Elas, porém, não conheciam navios."
+  },
+  {
+    "id": 10,
+    "greek": "οὐδὲ πηδαλίοισι χρᾶσθαι",
+    "portuguese": "Nem usar lemes."
+  },
+  {
+    "id": 11,
+    "greek": "οὐδὲ ἱστίοισι",
+    "portuguese": "Nem velas."
+  },
+  {
+    "id": 12,
+    "greek": "οὐδὲ εἰρεσίῃ",
+    "portuguese": "Nem remos."
+  },
+  {
+    "id": 13,
+    "greek": "ἀλλʼ ἐπεὶ ἐξέκοψαν τοὺς ἄνδρας",
+    "portuguese": "Mas depois que mataram os homens, "
+  },
+  {
+    "id": 14,
+    "greek": "ἐφέροντο κατὰ κῦμα καὶ ἄνεμον",
+    "portuguese": "foram levadas pelas ondas e pelo vento."
+  },
+  {
+    "id": 15,
+    "greek": "καὶ ἀπικνέονται τῆς λίμνης τῆς Μαιήτιδος ἐπὶ Κρημνούς",
+    "portuguese": "E chegam às Escarpas, junto ao lago Meótis."
+  },
+  {
+    "id": 16,
+    "greek": "οἱ δὲ Κρημνοὶ εἰσὶ γῆς τῆς Σκυθέων τῶν ἐλευθέρων",
+    "portuguese": "As Escarpas pertencem ao território dos citas livres."
+  },
+  {
+    "id": 17,
+    "greek": "ἐνθαῦτα ἀποβᾶσαι ἀπὸ τῶν πλοίων αἱ Ἀμαζόνες",
+    "portuguese": "Ali as Amazonas depois de desembarcarem dos navios,"
+  },
+  {
+    "id": 18,
+    "greek": "ὁδοιπόρεον ἐς τὴν οἰκεομένην",
+    "portuguese": "Avançaram em direção à terra habitada."
+  },
+  {
+    "id": 19,
+    "greek": "ἐντυχοῦσαι δὲ πρώτῳ ἱπποφορβίῳ",
+    "portuguese": "Depois de encontrarem primeiro uma manada de cavalos,"
+  },
+  {
+    "id": 20,
+    "greek": "τοῦτο διήρπασαν",
+    "portuguese": "(elas) essa saquearam."
+  },
+  {
+    "id": 21,
+    "greek": "καὶ ἐπὶ τούτων ἱππαζόμεναι",
+    "portuguese": "E montadas nesses cavalos,"
+  },
+  {
+    "id": 22,
+    "greek": "ἐληίζοντο τὰ τῶν Σκυθέων",
+    "portuguese": "pilhavam os bens dos citas."
+  },
+  {
+    "id": 23,
+    "greek": "οἱ δὲ Σκύθαι οὐκ εἶχον συμβαλέσθαι τὸ πρῆγμα",
+    "portuguese": "Os citas não podiam compreender a situação."
+  }
+]
