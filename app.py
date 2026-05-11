@@ -107,6 +107,7 @@ if st.button("Corrigir"):
         if correct == chosen:
             score += 1
             st.success(f"{letter} — Correto")
+
         else:
 
             correct_text = next(
@@ -134,10 +135,10 @@ Resposta correta:
             )
 
     st.subheader(f"Pontuação: {score}/{len(data)}")
-    
+
     st.write(f"Aluno(a): {name}")
     st.write(f"Email: {email}")
-    
+
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     result = {
@@ -147,23 +148,15 @@ Resposta correta:
         "total": len(data),
         "data": timestamp
     }
-    
+
     df = pd.DataFrame([result])
-    
-    file_exists = os.path.isfile("resultados.csv")
-    
-    df.to_csv(
-        "resultados.csv",
-        mode="a",
-        header=not file_exists,
-        index=False
-    )
-    
-    st.success("Resultado salvo com sucesso.")
+
+    st.success("Resultado gerado com sucesso.")
+
     csv_buffer = io.StringIO()
 
     df.to_csv(csv_buffer, index=False)
-    
+
     st.download_button(
         label="Baixar resultado CSV",
         data=csv_buffer.getvalue(),
