@@ -160,6 +160,16 @@ Resposta correta:
     )
     
     st.success("Resultado salvo com sucesso.")
+    csv_buffer = io.StringIO()
+
+    df.to_csv(csv_buffer, index=False)
+    
+    st.download_button(
+        label="Baixar resultado CSV",
+        data=csv_buffer.getvalue(),
+        file_name="resultado.csv",
+        mime="text/csv"
+    )
 
 # =========================
 # Reiniciar
