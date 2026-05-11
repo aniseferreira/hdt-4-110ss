@@ -1,8 +1,10 @@
-# app.py
 
 import streamlit as st
 import json
 import random
+import pandas as pd
+from datetime import datetime
+import os
 
 st.set_page_config(
     page_title="Matching — Heródoto",
@@ -86,6 +88,10 @@ with left:
 
 if st.button("Corrigir"):
 
+    if not name or not email:
+        st.warning("Preencha nome e email.")
+        st.stop()
+
     st.divider()
 
     score = 0
@@ -127,6 +133,32 @@ Resposta correta:
             )
 
     st.subheader(f"Pontuação: {score}/{len(data)}")
+    
+    st.write(f"Aluno(a): {name}")
+    st.write(f"Email: {email}")
+    
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    result = {
+        "nome": name,
+        "email": email,
+        "score": score,
+        "total": len(data),
+        "data": timestamp
+    }
+    
+    df = pd.DataFrame([result])
+    
+    file_exists = os.path.isfile("resultados.csv")
+    
+    df.to_csv(
+        "resultados.csv",
+        mode="a",
+        header=not file_exists,
+        index=False
+    )
+    
+    st.success("Resultado salvo com sucesso.")
 
 # =========================
 # Reiniciar
