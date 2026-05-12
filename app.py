@@ -19,18 +19,18 @@ st.markdown(
 
     html, body, [class*="css"]  {
         font-size: 26px;
-        font-family: 'EB Garamond', serif;
+        font-family: 'Alegreya', serif;
     }
 
     p, li, div {
         font-family: 'EB Garamond', serif;
-        font-size: 26px;
+        font-size: 24px;
         line-height: 1.7;
     }
 
     label {
         font-family: 'EB Garamond', serif !important;
-        font-size: 26px !important;
+        font-size: 24px !important;
         line-height: 1.8 !important;
     }
 
