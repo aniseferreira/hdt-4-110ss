@@ -18,7 +18,7 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&display=swap');
 
     html, body, [class*="css"]  {
-        font-size: 26px;
+        font-size: 24px;
         font-family: 'Alegreya', serif;
     }
 
@@ -75,7 +75,7 @@ email = st.text_input("Email")
 
 st.markdown(
     """
-### Associe cada oração em grego antigo à sua tradução em português.
+#### Associe cada oração em grego antigo à sua tradução em português.
 """
 )
 
