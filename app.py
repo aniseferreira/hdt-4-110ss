@@ -18,25 +18,25 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
 
     html, body, [class*="css"]  {
-        font-size: 22px;
+        font-size: 24px;
         font-family: 'Google Sans', serif;
     }
 
     p, li, div {
-        font-family: 'Alegreya', serif;
-        font-size: 22px;
+        font-family: 'Google Sans', serif;
+        font-size: 24px;
         line-height: 1.7;
     }
 
     label {
-        font-family: 'Alegreya', serif !important;
-        font-size: 24px !important;
+        font-family: 'Google Sans', serif !important;
+        font-size: 26px !important;
         line-height: 1.8 !important;
     }
 
     div[data-baseweb="select"] * {
-        font-family: 'Alegreya', serif !important;
-        font-size: 20px !important;
+        font-family: 'Google Sans', serif !important;
+        font-size: 22px !important;
     }
 
     </style>
