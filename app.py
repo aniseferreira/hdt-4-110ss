@@ -23,19 +23,19 @@ st.markdown(
     }
 
     p, li, div {
-        font-family: 'EB Garamond', serif;
-        font-size: 24px;
+        font-family: 'Alegreya', serif;
+        font-size: 26px;
         line-height: 1.7;
     }
 
     label {
-        font-family: 'EB Garamond', serif !important;
+        font-family: 'Alegreya', serif !important;
         font-size: 24px !important;
         line-height: 1.8 !important;
     }
 
     div[data-baseweb="select"] * {
-        font-family: 'EB Garamond', serif !important;
+        font-family: 'Alegreya', serif !important;
         font-size: 26px !important;
     }
 
