@@ -15,20 +15,28 @@ st.markdown(
     """
     <style>
 
-    /* Texto geral */
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
+
     html, body, [class*="css"]  {
         font-size: 22px;
+        font-family: 'EB Garamond', serif;
     }
 
-    /* Selectbox */
-    div[data-baseweb="select"] * {
-        font-size: 20px !important;
+    p, li, div {
+        font-family: 'EB Garamond', serif;
+        font-size: 22px;
+        line-height: 1.7;
     }
 
-    /* Labels gregos */
     label {
-        font-size: 22px !important;
-        line-height: 1.6 !important;
+        font-family: 'EB Garamond', serif !important;
+        font-size: 24px !important;
+        line-height: 1.8 !important;
+    }
+
+    div[data-baseweb="select"] * {
+        font-family: 'EB Garamond', serif !important;
+        font-size: 20px !important;
     }
 
     </style>
