@@ -18,25 +18,25 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
 
     html, body, [class*="css"]  {
-        font-size: 22px;
+        font-size: 26px;
         font-family: 'EB Garamond', serif;
     }
 
     p, li, div {
         font-family: 'EB Garamond', serif;
-        font-size: 22px;
+        font-size: 26px;
         line-height: 1.7;
     }
 
     label {
         font-family: 'EB Garamond', serif !important;
-        font-size: 24px !important;
+        font-size: 26px !important;
         line-height: 1.8 !important;
     }
 
     div[data-baseweb="select"] * {
         font-family: 'EB Garamond', serif !important;
-        font-size: 20px !important;
+        font-size: 26px !important;
     }
 
     </style>
