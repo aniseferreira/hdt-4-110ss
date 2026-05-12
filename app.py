@@ -15,11 +15,11 @@ st.markdown(
     """
     <style>
 
-    @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
 
     html, body, [class*="css"]  {
         font-size: 22px;
-        font-family: 'Alegreya', serif;
+        font-family: 'Google Sans', serif;
     }
 
     p, li, div {
