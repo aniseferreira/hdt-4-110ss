@@ -157,7 +157,7 @@ Resposta correta:
     
     st.success("Resultado gerado com sucesso.")
         
-    if "df_resultado" in st.session_state:
+if "df_resultado" in st.session_state:
 
     csv_buffer = io.StringIO()
 
