@@ -18,13 +18,13 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&display=swap');
 
     html, body, [class*="css"]  {
-        font-size: 24px;
+        font-size: 22px;
         font-family: 'Alegreya', serif;
     }
 
     p, li, div {
         font-family: 'Alegreya', serif;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 1.7;
     }
 
@@ -36,7 +36,7 @@ st.markdown(
 
     div[data-baseweb="select"] * {
         font-family: 'Alegreya', serif !important;
-        font-size: 26px !important;
+        font-size: 20px !important;
     }
 
     </style>
