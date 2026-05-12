@@ -11,7 +11,30 @@ st.set_page_config(
     page_title="Matching — Heródoto",
     layout="wide"
 )
+st.markdown(
+    """
+    <style>
 
+    /* Texto geral */
+    html, body, [class*="css"]  {
+        font-size: 22px;
+    }
+
+    /* Selectbox */
+    div[data-baseweb="select"] * {
+        font-size: 20px !important;
+    }
+
+    /* Labels gregos */
+    label {
+        font-size: 22px !important;
+        line-height: 1.6 !important;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # =========================
 # Carregar dados
 # =========================
